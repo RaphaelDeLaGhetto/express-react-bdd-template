@@ -43,4 +43,9 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+let port = process.env.NODE_ENV === 'production' ? 3000 : 3001;
+app.listen(port, '0.0.0.0', () => {
+  console.log('archiver listening ' + port + '!');
+});
+
 module.exports = app;
