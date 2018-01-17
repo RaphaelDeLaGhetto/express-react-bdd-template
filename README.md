@@ -30,6 +30,14 @@ In development mode, the server listens on port `3001` (i.e., go to `http://loca
 npm test
 ```
 
+# Production
+
+The _Dockerized_ production is meant to be deployed behind an `nginx-proxy`/`lets-encrypt` combo:
+
+```
+docker-compose -f docker-compose.prod.yml -d
+```
+
 # Licence
 
 MIT
