@@ -12,6 +12,16 @@ git clone https://github.com/TheMiningKing/intelli-api.git
 cd intelli-api && npm install
 ```
 
+# Development
+
+Run server:
+
+```
+npm start
+```
+
+In development mode, the server listens on port `3001` (i.e., go to `http://localhost:3001` to view the app).
+
 # Tests
 
 `intelli-api` uses `jasmine` and `zombie` for testing:
@@ -19,4 +29,8 @@ cd intelli-api && npm install
 ```
 npm test
 ```
+
+# Licence
+
+MIT
 
