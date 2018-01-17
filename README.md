@@ -32,6 +32,22 @@ npm test
 
 # Production
 
+## App
+
+Clone:
+
+```
+git clone https://github.com/TheMiningKing/intelli-api.git
+```
+
+In the application directory:
+
+```
+cd intelli-api
+NODE_ENV=production npm install
+NODE_ENV=production npm run build
+```
+
 The _Dockerized_ production is meant to be deployed behind an `nginx-proxy`/`lets-encrypt` combo:
 
 ```
