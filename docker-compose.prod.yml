@@ -1,0 +1,19 @@
+version: '3'
+services:
+  node:
+    build: .
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - VIRTUAL_HOST=intelli.theminingking.com
+      - LETSENCRYPT_HOST=intelli.theminingking.com
+      - LETSENCRYPT_EMAIL=daniel@capitolhill.ca
+    volumes:
+      - .:/home/node
+      - /home/node/node_modules
+networks:
+  default:
+    external:
+      name: nginx-proxy
