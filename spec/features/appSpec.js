@@ -27,7 +27,7 @@ describe('client', () => {
 
   describe('UI', () => {
     it('has a friendly greeting', () => {
-      browser.assert.text('h1', 'Intelli API');
+      browser.assert.text('h1', 'express-react-bdd-template');
       browser.assert.text('h2', 'Hello, world!');
     });
   });
