@@ -7,9 +7,9 @@ services:
       - 3000
     environment:
       - NODE_ENV=production
-      - VIRTUAL_HOST=intelli.theminingking.com
-      - LETSENCRYPT_HOST=intelli.theminingking.com
-      - LETSENCRYPT_EMAIL=daniel@capitolhill.ca
+      - VIRTUAL_HOST=example.com
+      - LETSENCRYPT_HOST=example.com
+      - LETSENCRYPT_EMAIL=you@example.com
     volumes:
       - .:/home/node
       - /home/node/node_modules
