@@ -1,15 +1,13 @@
-intelli-api
-===========
+express-react-bdd-template
+==========================
 
-This is an experimental, requirements driven, living proof of concept for the incipient Intelli Blockchain Token.
-
-It is an Express API with a simple React client.
+Template Express/React app with with Jasmine and Zombie BDD testing built in.
 
 # Install
 
 ```
-git clone https://github.com/TheMiningKing/intelli-api.git
-cd intelli-api && npm install
+git clone https://github.com/RaphaelDeLaGhetto/express-react-bdd-template.git
+cd express-react-bdd-template && npm install
 ```
 
 # Development
@@ -24,7 +22,7 @@ In development mode, the server listens on port `3001` (i.e., go to `http://loca
 
 # Tests
 
-`intelli-api` uses `jasmine` and `zombie` for testing:
+`express-react-bdd-template` uses `jasmine` and `zombie` for testing:
 
 ```
 npm test
@@ -37,13 +35,13 @@ npm test
 Clone:
 
 ```
-git clone https://github.com/TheMiningKing/intelli-api.git
+git clone https://github.com/RaphaelDeLaGhetto/express-react-bdd-template.git
 ```
 
 In the application directory:
 
 ```
-cd intelli-api
+cd express-react-bdd-template
 NODE_ENV=production npm install
 NODE_ENV=production npm run build
 ```
