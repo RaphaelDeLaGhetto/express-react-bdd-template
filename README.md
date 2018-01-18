@@ -51,7 +51,7 @@ NODE_ENV=production npm run build
 The _Dockerized_ production is meant to be deployed behind an `nginx-proxy`/`lets-encrypt` combo:
 
 ```
-docker-compose -f docker-compose.prod.yml -d
+docker-compose -f docker-compose.prod.yml up -d
 ```
 
 # Licence
